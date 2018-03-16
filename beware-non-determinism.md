@@ -22,3 +22,5 @@ test('getStore returns an object with the correct date', t => {
   t.is(getStore().date.toString, 'Fri Mar 16 2018 15:38:10 GMT-0400 (EDT)');
 });
 ```
+
+But it would fail on any other day. 
