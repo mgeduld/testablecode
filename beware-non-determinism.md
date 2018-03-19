@@ -24,3 +24,5 @@ test('getStore returns an object with the correct date', t => {
 ```
 
 But it would fail on any other day. 
+
+[next](prune-branches.md)
