@@ -1,4 +1,4 @@
-## printTasks is mixing business - logic with side effects
+## printTasks is mixing business with logic with side effects
 
 ```javascript
 const printTasks = (tasks) => {

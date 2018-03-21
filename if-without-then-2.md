@@ -40,7 +40,7 @@ const log(message) => {
 };
 
 const test = require('ava');
-const td = require('tesdouble);
+const td = require('tesdouble');
 test('log happens', t => {
   const spy = td.func();
   console = {log: spy};
