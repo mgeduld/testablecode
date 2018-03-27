@@ -1,0 +1,27 @@
+{
+  "name": "testablecode",
+  "version": "1.0.0",
+  "description": "tips for unit testers",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgeduld/testablecode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgeduld/testablecode/issues"
+  },
+  "homepage": "https://github.com/mgeduld/testablecode#readme",
+  "devDependencies": {
+    "@types/node": "9.6.0",
+    "ava": "0.25.0",
+    "typescript": "2.8.1"
+  },
+  "dependencies": {
+    "nyc": "11.6.0"
+  }
+}
