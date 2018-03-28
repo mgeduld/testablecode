@@ -23,7 +23,7 @@ const save = (store) => {
 };
 
 const start = () => {
-	const store = {date: new Date()}
+  const store = {date: new Date()}
   printTasks(store);
   save(store);
 };

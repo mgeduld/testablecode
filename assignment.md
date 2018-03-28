@@ -31,7 +31,7 @@ export const main = async (clientId: string): void => {
     .then(() => console.log('Data saved for clientId', clientId));
 };
 
-main(process.env.argv[3]);
+main(process.argv[3]);
 ```
 
 See the `src` directory for a solution.
